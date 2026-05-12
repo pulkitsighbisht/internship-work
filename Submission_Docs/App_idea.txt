@@ -1,0 +1,34 @@
+Part 4: App Development Idea
+1. App Name
+
+SkillPop
+
+2. Purpose
+
+To provide a centralized, AI-powered ecosystem that solves "information overload" for students.
+
+The platform streamlines the learning process by transforming scattered academic resources into structured, personalized study roadmaps and summaries.
+
+3. Target Users
+
+University Students: Specifically those in technical fields (like Computer Science) who manage high volumes of complex documentation.
+
+Self-Learners: Individuals looking for curated, step-by-step paths to master new professional skills.
+
+4. 3 Main Features
+
+Smart Roadmap Generator: SkillPop creates dynamic learning paths by combining AI analysis with community-validated resources and peer-rated links.
+
+Collaborative Document Intelligence: Students can upload PDFs or lecture notes which the AI converts into concise summaries, active-recall flashcards, and practice quizzes.
+
+Peer-Validated Resource Library: A social voting system allows users to upvote the most helpful videos and files, ensuring the roadmap always prioritizes the highest-quality materials.
+
+Competitive Advantage (SkillPop vs. General AI)
+
+Unlike general-purpose AIs like ChatGPT or Gemini, SkillPop focuses on the specific workflow of a student:
+
+Structured Organization: It acts as a specialized academic library rather than a simple chat interface, keeping all summaries and roadmaps organized by subject.
+
+Validation: It reduces "AI hallucinations" by cross-referencing information with community-voted resources and real-world peer feedback.
+
+Social Learning: It enables students to collaborate, share resources, and explain topics to one another, fostering a community experience that general chatbots lack.
