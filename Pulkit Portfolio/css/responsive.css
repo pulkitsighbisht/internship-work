@@ -1,0 +1,83 @@
+@media (max-width: 900px) {
+  /* NAVBAR */
+  .navbar ul {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  /* SIDEBAR OPEN */
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  /* HOMEPAGE Stack */
+  .home-main {
+    flex-direction: column-reverse; /* Put image above text on mobile */
+    text-align: center;
+    justify-content: center;
+    padding-top: 140px;
+    gap: 30px;
+  }
+
+  .home-content {
+    align-items: center; /* Center buttons/p on mobile */
+    text-align: center;
+  }
+
+  .home-main h1 {
+    font-size: 2.8rem;
+  }
+
+  .home-main h2 br {
+    display: block; /* Show break for stacked text */
+  }
+
+  .home-image {
+    max-width: 320px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Padding adjustments */
+  .about-main, .cybersafety-main, .contact-main {
+    padding: 110px 5% 60px;
+  }
+
+  /* Typography scales */
+  .about-me h1 {
+    font-size: 2.2rem;
+  }
+
+  .skills-container h2 {
+    font-size: 1.8rem;
+  }
+
+  .cybersafety-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .cybersafety-intro p {
+    font-size: 1rem;
+  }
+
+  .safety-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* Contact Form internal padding */
+  .form {
+    padding: 30px 20px;
+  }
+
+  .form-container h1 {
+    font-size: 2.5rem;
+  }
+
+  /* Footer stack */
+  .footer {
+    padding: 40px 20px;
+  }
+}

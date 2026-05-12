@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pulkit Bisht Portfolio - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="contact"> 
+  <nav class='navbar'> 
+    <h1>Pulkit Bisht.</h1>
+    <ul> 
+      <li> <a href='index.html'> Home </a> </li>
+      <li> <a href='about.html'> About </a> </li>
+      <li> <a href='cybersafety.html'> Cyber Safety </a> </li>
+      <li> <a href='contact.html' class="active"> Contact </a> </li>
+    </ul>
+
+    <div class="menu-btn">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <div class="sidebar">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="cybersafety.html">Cyber Safety</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </div>
+  
+  <main class="contact-main">
+    <div class="form-container">
+      <h1>Let's Create Together</h1>
+      
+      <form class="form" onsubmit="event.preventDefault();">
+        <div class="input-group">
+          <label class="label" for="name">Your Full Name</label>
+          <input class="input" type="text" id="name" placeholder="John Doe" required>
+        </div>
+        
+        <div class="input-group">
+          <label class="label" for="email">Your Best E-Mail Address</label>
+          <input class="input" type="email" id="email" placeholder="john.doe@email.com" required>
+        </div>
+        
+        <div class="input-group">
+          <label class="label" for="message">How can I help you?</label>
+          <textarea class="textarea" id="message" placeholder="A brief description of your project..." required></textarea> 
+        </div>
+        
+        <button type="submit" class="btn primary contact-btn">Send Message</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-container">
+      <h1>Pulkit Bisht</h1>
+      <p>Frontend Developer • Secure, Performant User Experiences</p>
+      <p class="copyright">© 2026 Pulkit Bisht. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
